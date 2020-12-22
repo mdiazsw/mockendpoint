@@ -1,7 +1,7 @@
 {
   "version":[
     {
-      "currentVersion": "v3",
+      "currentVersion": "v2",
       "newMandatoryVersion": true,
       "newRecommendedVersion": true,
       "message": "Update required"
@@ -10,7 +10,7 @@
       "currentVersion": "v4",
       "newMandatoryVersion": false,
       "newRecommendedVersion": true,
-      "message": "There is a recommended update"
+      "message": "There is a recommended version"
     },
     {
       "currentVersion": "v6",
