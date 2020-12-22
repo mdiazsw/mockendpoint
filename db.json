@@ -1,20 +1,13 @@
 {
   "sessions": [
     {
-      "version":{
-        "newMandatoryVersion": true,
-        "newRecommendedVersion": true,
-        "message": "Update required"
-      }
+      "version":[
+        {
+          "newMandatoryVersion": true,
+          "newRecommendedVersion": true,
+          "message": "Update required"
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "mockendpoint"
-  },
-  "body":{
-    "id" : 1,
-    "currentVersion": "", 
-    "os": "", 
-    "patientId": "",
-    "language": ""}
+  ]
 }
