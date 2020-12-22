@@ -7,7 +7,7 @@
       "message": "Update required"
     },
     {
-      "currentVersion": "v5",
+      "currentVersion": "v4",
       "newMandatoryVersion": false,
       "newRecommendedVersion": true,
       "message": "There is a recommended update"
