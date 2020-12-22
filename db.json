@@ -1,5 +1,5 @@
 {
-  "sessions": [
+  "sessions": 
     {
       "version":[
         {
@@ -22,5 +22,4 @@
         }
       ]
     }
-  ]
 }
