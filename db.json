@@ -1,22 +1,25 @@
 {
-  "session/version":[
+  "sessions":
     {
-      "update": "required",
-      "newMandatoryVersion": true,
-      "newRecommendedVersion": true,
-      "message": "Update required"
-    },
-    {
-      "update": "recommended",
-      "newMandatoryVersion": false,
-      "newRecommendedVersion": true,
-      "message": "There is a recommended update"
-    },
-    {
-      "update": "none",
-      "newMandatoryVersion": false,
-      "newRecommendedVersion": false,
-      "message": "Ok"
+      "version":[
+        {
+          "update": "required",
+          "newMandatoryVersion": true,
+          "newRecommendedVersion": true,
+          "message": "Update required"
+        },
+        {
+          "update": "recommended",
+          "newMandatoryVersion": false,
+          "newRecommendedVersion": true,
+          "message": "There is a recommended update"
+        },
+        {
+          "update": "none",
+          "newMandatoryVersion": false,
+          "newRecommendedVersion": false,
+          "message": "Ok"
+        }
+      ]
     }
-  ]
 }
