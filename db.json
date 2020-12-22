@@ -1,8 +1,25 @@
 {
-  "get": [
+  "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "newMandatoryVersion": true,
+      "newRecommendedVersion": true,
+      "message": "Update required"
+    },
+    {
+      "id": 2,
+      "newMandatoryVersion": false,
+      "newRecommendedVersion": true,
+      "message": "Theres is a recommended new version"
+    },
+    {
+      "id": 3,
+      "newMandatoryVersion": false,
+      "newRecommendedVersion": false,
+      "message": "Ok"
     }
-  ]
+  ],
+  "profile": {
+    "name": "mockendpoint"
+  }
 }
