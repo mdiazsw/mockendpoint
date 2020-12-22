@@ -1,17 +1,22 @@
 {
   "post": [
     {
-      "newMandatoryVersion": true,
-      "newRecommendedVersion": true,
-      "message": "Update required"
+      "type": "object",
+      "properties": {
+        "pathParameters": {
+          "type": "object",
+          "properties": {
+            "currentVersion": {"type": "string"},
+            "os": {"type": "string"},
+            "patientId": {"type": "string"},
+            "language": {"type": "string"}
+          },
+        "required": ["currentVersion","os","patientId","language"]
+        }
+      }
     }
   ],
   "profile": {
     "name": "mockendpoint"
-  },
-  "body":{
-    "currentVersion": "", 
-    "os": "", 
-    "patientId": "",
-    "language": ""}
+  }
 }
