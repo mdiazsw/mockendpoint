@@ -1,19 +1,19 @@
 {
   "version":[
     {
-      "update": "required",
+      "currentVersion": "v3",
       "newMandatoryVersion": true,
       "newRecommendedVersion": true,
       "message": "Update required"
     },
     {
-      "update": "recommended",
+      "currentVersion": "v5",
       "newMandatoryVersion": false,
       "newRecommendedVersion": true,
       "message": "There is a recommended update"
     },
     {
-      "update": "none",
+      "currentVersion": "v6",
       "newMandatoryVersion": false,
       "newRecommendedVersion": false,
       "message": "Ok"
