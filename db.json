@@ -1,9 +1,11 @@
 {
-  "get": [
+  "sessions": [
     {
-      "newMandatoryVersion": true,
-      "newRecommendedVersion": true,
-      "message": "Update required"
+      "version":{
+        "newMandatoryVersion": true,
+        "newRecommendedVersion": true,
+        "message": "Update required"
+      }
     }
   ],
   "profile": {
