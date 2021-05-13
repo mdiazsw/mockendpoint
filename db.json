@@ -1,22 +1,100 @@
-{
-  "version":[
-    {
-      "currentVersion": "v2",
-      "newMandatoryVersion": true,
-      "newRecommendedVersion": true,
-      "message": "Update required"
-    },
-    {
-      "currentVersion": "v4",
-      "newMandatoryVersion": false,
-      "newRecommendedVersion": true,
-      "message": "There is a recommended version"
-    },
-    {
-      "currentVersion": "v6",
-      "newMandatoryVersion": false,
-      "newRecommendedVersion": false,
-      "message": "Ok"
+{ "Merchants":[
+  {
+    "title": "hello",
+    "coordinates": {
+      "latitude": -37.1124,
+      "longitude": -56.8703
     }
-  ]
-}
+  },
+  {
+    "title": "hello",
+    "coordinates": {
+      "latitude": -37.1093,
+      "longitude": -56.8607
+    }
+  },
+  {
+    "title": "hello",
+    "coordinates": {
+      "latitude": -37.1153,
+      "longitude": -56.8649
+    }
+  },
+  {
+    "title": "hello",
+    "coordinates": {
+      "latitude": -37.1067,
+      "longitude": -56.869
+    }
+  },
+  {
+    "title": "Canal Street Bar",
+    "coordinates": {
+      "latitude": -34.6045,
+      "longitude": -58.3823
+    }
+  },
+  {
+    "title": "Starbucks",
+    "coordinates": {
+      "latitude": -34.6046,
+      "longitude": -58.3823
+    }
+  },
+  {
+    "title": "Alma Café",
+    "coordinates": {
+      "latitude": -34.6049,
+      "longitude": -58.3824
+    }
+  },
+  {
+    "title": "BestDay Argentina",
+    "coordinates": {
+      "latitude": -34.6049,
+      "longitude": -58.3824
+    }
+  },
+  {
+    "title": "Highlight Fotografía",
+    "coordinates": {
+      "latitude": -34.605,
+      "longitude": -58.3823
+    }
+  },
+  {
+    "title": "Cosmologic S.A.",
+    "coordinates": {
+      "latitude": -34.6049,
+      "longitude": -58.3815
+    }
+  },
+  {
+    "title": "La colonia",
+    "coordinates": {
+      "latitude": -34.605,
+      "longitude": -58.381
+    }
+  },
+  {
+    "title": "CASA NAVIDAD",
+    "coordinates": {
+      "latitude": -34.6041,
+      "longitude": -58.3805
+    }
+  },
+  {
+    "title": "McDonald's",
+    "coordinates": {
+      "latitude": -34.6038,
+      "longitude": -58.3807
+    }
+  },
+  {
+    "title": "Tostado Café Club - Obelisco",
+    "coordinates": {
+      "latitude": -34.6035,
+      "longitude": -58.3808
+    }
+  }
+]}
