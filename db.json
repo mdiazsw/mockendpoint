@@ -5,26 +5,43 @@
                 "nombre": "MANTEQUILLA DE MANI",
                 "valor": 150,
                 "azucar": true,
-                "peso": 250
+                "peso": 250,
+                "tipo": "CARBOHIDRATO"
             },
             {
                 "nombre": "DULCE DE LECHE",
                 "valor": 210,
                 "azucar": false,
-                "peso": 220
+                "peso": 220,
+                "tipo": "CARBOHIDRATO"
+            },
+            {
+                "nombre": "PAPAS LIGHT",
+                "valor": 120,
+                "azucar": false,
+                "peso": 120,
+                "tipo": "CARBOHIDRATO"
+            },
+            {
+                "nombre": "ATUN",
+                "valor": 150,
+                "azucar": false,
+                "peso": 250,
+                "tipo": "PROTEINA"
+            },
+            {
+                "nombre": "CEREALES",
+                "valor": 210,
+                "azucar": false,
+                "peso": 220,
+                "tipo": "FIBRA"
             },
             {
                 "nombre": "BARRAS DE CEREAL",
                 "valor": 120,
                 "azucar": false,
-                "peso": 120
+                "peso": 120,
+                "tipo": "FIBRA"
             },
-            {
-                "nombre": "CEREALES",
-                "valor": 170,
-                "azucar": true,
-                "peso": 500 
-            }
-
         ]
 }
