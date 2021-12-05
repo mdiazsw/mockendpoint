@@ -9,6 +9,14 @@
                 "imagen": "mantequilla01",
                 "tipo": "ENVASADO"
             },
+             {
+                "nombre": "MANTEQUILLA DE MANI - NATURAL",
+                "valor": 310,
+                "azucar": false,
+                "peso": 470,
+                "imagen": "mantequilla02",
+                "tipo": "ENVASADO"
+            },
             {
                 "nombre": "DULCE DE LECHE",
                 "valor": 500,
@@ -18,12 +26,12 @@
                 "tipo": "ENVASADO"
             },
             {
-                "nombre": "PAPAS LIGHT",
-                "valor": 120,
-                "sal": true,
-                "peso": 65,
-                "imagen": "papasligth01",
-                "tipo": "SNACKS"
+                "nombre": "CREMA DE AVELLANAS",
+                "valor": 950,
+                "azucar": true,
+                "peso": 170,
+                "imagen": "cremadeavellanas01",
+                "tipo": "ENVASADO"
             },
             {
                 "nombre": "GRANOLA",
@@ -39,6 +47,14 @@
                 "azucar": false,
                 "peso": 42,
                 "imagen": "barracereal01",
+                "tipo": "SNACKS"
+            },
+             {
+                "nombre": "PAPAS FRITAS",
+                "valor": 120,
+                "sal": true,
+                "peso": 65,
+                "imagen": "papasligth01",
                 "tipo": "SNACKS"
             },
             {
@@ -64,22 +80,6 @@
                 "peso": 80,
                 "imagen": "papas04",
                 "tipo": "SNACKS"
-            },
-            {
-                "nombre": "MANTEQUILLA DE MANI - NATURAL",
-                "valor": 310,
-                "azucar": false,
-                "peso": 470,
-                "imagen": "mantequilla02",
-                "tipo": "ENVASADO"
-            },
-            {
-                "nombre": "CREMA DE AVELLANAS",
-                "valor": 950,
-                "azucar": true,
-                "peso": 170,
-                "imagen": "cremadeavellanas01",
-                "tipo": "ENVASADO"
             },
             {
                 "nombre": "TE NEGRO",
