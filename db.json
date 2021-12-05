@@ -117,6 +117,7 @@
                 "nombre": "NUEZ MOSCADA",
                 "valor": 530,
                 "azucar": false,
+                "sal": true,
                 "peso": 60,
                 "tipo": "ESPECIAS",
                 "imagen": "especias01"
@@ -125,6 +126,7 @@
                 "nombre": "PIMIENTA BLANCA",
                 "valor": 490,
                 "azucar": false,
+                "sal": true,
                 "peso": 65,
                 "tipo": "ESPECIAS",
                 "imagen": "especias02"
@@ -133,6 +135,7 @@
                 "nombre": "JENGIBRE, AZUCAR Y SAL",
                 "valor": 340,
                 "azucar": false,
+                "sal": true,
                 "peso": 60,
                 "tipo": "ESPECIAS",
                 "imagen": "especias03"
