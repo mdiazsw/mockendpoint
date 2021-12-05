@@ -94,7 +94,7 @@
                 "valor": 30,
                 "azucar": false,
                 "peso": 30,
-                "tipo": "INFUSIONES"
+                "tipo": "INFUSIONES",
                 "imagen": "te02"
             },
             {
@@ -102,7 +102,7 @@
                 "valor": 250,
                 "azucar": false,
                 "peso": 125,
-                "tipo": "INFUSIONES"
+                "tipo": "INFUSIONES",
                 "imagen": "cafe01"
             },
             {
@@ -110,7 +110,7 @@
                 "valor": 450,
                 "azucar": false,
                 "peso": 500,
-                "tipo": "INFUSIONES"
+                "tipo": "INFUSIONES",
                 "imagen": "yerba01"
             },
             {
@@ -118,7 +118,7 @@
                 "valor": 530,
                 "azucar": false,
                 "peso": 60,
-                "tipo": "ESPECIAS"
+                "tipo": "ESPECIAS",
                 "imagen": "especias01"
             },
             {
@@ -126,7 +126,7 @@
                 "valor": 490,
                 "azucar": false,
                 "peso": 65,
-                "tipo": "ESPECIAS"
+                "tipo": "ESPECIAS",
                 "imagen": "especias02"
             },
             {
@@ -134,7 +134,7 @@
                 "valor": 340,
                 "azucar": false,
                 "peso": 60,
-                "tipo": "ESPECIAS"
+                "tipo": "ESPECIAS",
                 "imagen": "especias03"
             }
         ]
