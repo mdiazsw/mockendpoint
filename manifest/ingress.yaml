@@ -44,6 +44,29 @@ spec:
       port: 80
       targetPort: 8080
 ---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: bar2-app
+  labels:
+    app: bar2
+spec:
+  containers:
+    - name: bar2-app
+      image: 'kicbase/echo-server:1.0'
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: bar2-service
+spec:
+  selector:
+    app: bar2
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -74,6 +97,23 @@ spec:
         backend:
           service:
             name: bar-service
+            port:
+              number: 80
+  ingressClassName: nginx-westus #TODO:
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-bar2
+spec:
+  rules:
+  - http:
+      paths:
+      - pathType: Prefix
+        path: /bar2
+        backend:
+          service:
+            name: bar2-service
             port:
               number: 80
   ingressClassName: nginx-westus #TODO:
