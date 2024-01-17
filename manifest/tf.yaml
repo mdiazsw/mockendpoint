@@ -29,7 +29,7 @@ spec:
     image: tensorflow/tensorflow:latest-gpu-jupyter
     resources:
       limits:
-        nvidia.com/gpu: 2
+        nvidia.com/gpu: 1
     ports:
     - containerPort: 8888
       name: notebook
